@@ -1,0 +1,2342 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- banner section -->
+<section>
+    <!-- banner section -->
+    <div class="hero bg-lightGrey11 dark:bg-lightGrey11-dark relative z-0 overflow-hidden py-50px md:py-100px lg:pt-100px lg:pb-150px 2xl:pt-70px 2xl:pb-30 4xl:pt-155px 4xl:pb-250px">
+        <!-- animated icons -->
+        <div>
+            <img class="absolute left-10 bottom-[233px] md:left-[248px] md:bottom-[143px] lg:left-10 lg:bottom-[112px] 3xl:bottom-[233px] animate-move-var opacity-35 z-10"
+                src="{% static 'images/herobanner/herobanner__1.png' %}" alt=""><img
+                class="absolute left-0 top-0 md:left-[50px] md:top-[110px] lg:left-[30px] lg:top-[75px] 2xl:left-[50px] 2xl:top-16 3xl:top-[110px] animate-spin-slow"
+                src="{% static 'images/herobanner/herobanner__2.png' %}" alt=""><img
+                class="absolute md:left-[210px] md:top-[50px] animate-move-var2 hidden md:block"
+                src="{% static 'images/herobanner/herobanner__3.png' %}" alt="">
+            <img class="absolute top-20 left-[872px] md:left-[872px] lg:left-[595px] 2xl:left-[872px] hidden md:block animate-move-hor"
+                src="{% static 'images/herobanner/herobanner__4.png' %}" alt="">
+            <img class="absolute top-0 right-0 md:right-[110px] md:top-[100px] lg:right-[13px] lg:top[90px] 2xl:right-[82px] 2xl:top-[100px] 3xl:right-[110px] animate-move-hor"
+                src="{% static 'images/herobanner/herobanner__5.png' %}" alt="">
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper ecommerce-slider">
+            <div class="swiper-wrapper">
+                <!-- Hero  1 -->
+                <div class="swiper-slide px-15px">
+                    <div class="container 2xl:container-secondary-md relative overflow-hidden">
+                        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-30px">
+                            <!-- banner Left -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                                <div class="3xl:pr-135px">
+                                    <h3
+                                        class="uppercase text-secondaryColor text-size-15 mb-5px md:mb-15px font-inter tracking-[4px] font-semibold">
+                                        EDUCATION SOLUTION
+                                    </h3>
+                                    <h1 class="text-size-35 md:text-size-65 lg:text-5xl 2xl:text-size-65 leading-42px md:leading-18 lg:leading-15 2xl:leading-18 text-blackColor dark:text-blackColor-dark md:tracking-half lg:tracking-normal 2xl:tracking-half font-bold mb-15px">
+                                        MUG
+                                        <span class="text-secondaryColor">Ninbn</span>
+                                    </h1>
+                                    <p
+                                        class="text-size-15md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        typesetting <br>
+                                        industry. Lorem Ipsum has been
+                                    </p>
+                                    <p
+                                        class="text-3xl md:text-size-40 font-bold text-primaryColor mt-30px mb-10 flex items-center justify-start">
+                                        $32.00
+                                        <del
+                                            class="text-3xl text-lightGrey4 dark:lightGrey-4-dark font-normal ml-10px">
+                                            $67.00</del>
+                                        <span
+                                            class="text-xs text-whiteColor bg-secondaryColor px-10px py-1 rounded ml-15px">30%
+                                            Off</span>
+                                    </p>
+                                    <div>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-primaryColor border border-primaryColor px-25px py-15px hover:text-primaryColor hover:bg-whiteColor rounded inline-block mr-6px md:mr-30px dark:hover:bg-whiteColor-dark dark:hover:text-whiteColor">
+                                            Buy Now
+                                        </a>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-secondaryColor border border-secondaryColor px-25px py-15px hover:text-secondaryColor hover:bg-whiteColor rounded inline-block dark:hover:bg-whiteColor-dark dark:hover:text-secondaryColor">
+                                            Explore More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner right -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-8 lg:col-start-8 lg:col-span-5">
+                                <div class="tilt">
+                                    <img class="w-full" src="{% static 'images/herobanner/herobanner__slider.png' %}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero  2 -->
+                <div class="swiper-slide px-15px">
+                    <div class="container 2xl:container-secondary-md relative overflow-hidden">
+                        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-30px">
+                            <!-- banner Left -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                                <div class="3xl:pr-135px text-center">
+                                    <h3
+                                        class="uppercase text-secondaryColor text-size-15 mb-5px md:mb-15px font-inter tracking-[4px] font-semibold">
+                                        Coror Solution
+                                    </h3>
+                                    <h1
+                                        class="text-size-35 md:text-size-65 lg:text-5xl 2xl:text-size-65 leading-42px md:leading-18 lg:leading-15 2xl:leading-18 text-blackColor dark:text-blackColor-dark md:tracking-half lg:tracking-normal 2xl:tracking-half font-bold mb-15px">
+                                        Best Colorful
+                                        <span class="text-secondaryColor">Career</span>
+                                    </h1>
+                                    <p
+                                        class="text-size-15md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        typesetting <br>
+                                        industry. Lorem Ipsum has been
+                                    </p>
+                                    <p
+                                        class="text-3xl md:text-size-40 font-bold text-primaryColor mt-30px mb-10 flex items-center justify-center">
+                                        $32.00
+                                        <del
+                                            class="text-3xl text-lightGrey4 dark:lightGrey-4-dark font-normal ml-10px">
+                                            $67.00</del>
+                                        <span
+                                            class="text-xs text-whiteColor bg-secondaryColor px-10px py-1 rounded ml-15px">30%
+                                            Off</span>
+                                    </p>
+                                    <div>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-primaryColor border border-primaryColor px-25px py-15px hover:text-primaryColor hover:bg-whiteColor rounded inline-block mr-6px md:mr-30px dark:hover:bg-whiteColor-dark dark:hover:text-whiteColor">
+                                            Buy Now
+                                        </a>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-secondaryColor border border-secondaryColor px-25px py-15px hover:text-secondaryColor hover:bg-whiteColor rounded inline-block dark:hover:bg-whiteColor-dark dark:hover:text-secondaryColor">
+                                            Explore More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner right -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-8 lg:col-start-8 lg:col-span-5">
+                                <div class="tilt">
+                                    <img class="w-full" src="{% static 'images/herobanner/herobanner__slider__2.png' %}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero  3 -->
+                <div class="swiper-slide px-15px">
+                    <div class="container 2xl:container-secondary-md relative overflow-hidden">
+                        <div class="grid grid-cols-1 md:grid-cols-12 items-center gap-30px">
+                            <!-- banner Left -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-12 lg:col-start-1 lg:col-span-7">
+                                <div class="3xl:pr-135px text-end">
+                                    <h3
+                                        class="uppercase text-secondaryColor text-size-15 mb-5px md:mb-15px font-inter tracking-[4px] font-semibold">
+                                        Minimal Solution
+                                    </h3>
+                                    <h1
+                                        class="text-size-35 md:text-size-65 lg:text-5xl 2xl:text-size-65 leading-42px md:leading-18 lg:leading-15 2xl:leading-18 text-blackColor dark:text-blackColor-dark md:tracking-half lg:tracking-normal 2xl:tracking-half font-bold mb-15px">
+                                        Reading Table
+                                        <span class="text-secondaryColor">Lamp</span>
+                                    </h1>
+                                    <p
+                                        class="text-size-15md:text-lg text-blackColor dark:text-blackColor-dark font-medium">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        typesetting <br>
+                                        industry. Lorem Ipsum has been
+                                    </p>
+                                    <p
+                                        class="text-3xl md:text-size-40 font-bold text-primaryColor mt-30px mb-10 flex items-center justify-end">
+                                        $32.00
+                                        <del
+                                            class="text-3xl text-lightGrey4 dark:lightGrey-4-dark font-normal ml-10px">
+                                            $67.00</del>
+                                        <span
+                                            class="text-xs text-whiteColor bg-secondaryColor px-10px py-1 rounded ml-15px">30%
+                                            Off</span>
+                                    </p>
+                                    <div>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-primaryColor border border-primaryColor px-25px py-15px hover:text-primaryColor hover:bg-whiteColor rounded inline-block mr-6px md:mr-30px dark:hover:bg-whiteColor-dark dark:hover:text-whiteColor">
+                                            Buy Now
+                                        </a>
+                                        <a href="#"
+                                            class="text-sm md:text-size-15 text-whiteColor bg-secondaryColor border border-secondaryColor px-25px py-15px hover:text-secondaryColor hover:bg-whiteColor rounded inline-block dark:hover:bg-whiteColor-dark dark:hover:text-secondaryColor">
+                                            Explore More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- banner right -->
+                            <div data-aos="fade-up"
+                                class="md:col-start-1 md:col-span-8 lg:col-start-8 lg:col-span-5">
+                                <div class="tilt">
+                                    <img class="w-full" src="{% static 'images/herobanner/herobanner__slider__3.png' %}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div
+            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                aria-label="Go to slide 1"></span><span
+                class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
+                aria-label="Go to slide 2" aria-current="true"></span><span class="swiper-pagination-bullet"
+                tabindex="0" role="button" aria-label="Go to slide 3"></span>
+        </div>
+    </div>
+</section>
+
+<!--  brand section -->
+<div data-aos="fade-up">
+    <div
+        class="container2-md flex flex-wrap items-center justify-center bg-white dark:bg-whiteColor-dark rounded-md mx-auto md:-translate-y-1/2 w-full shadow-brand">
+        <div class="basis-1/2 md:basis-1/4 lg:basis-1/5 flex justify-center py-5 lg:py-35px 2xl:py-45px">
+            <a href="#"><img src="{% static 'images/brand/brand_1.png' %}" alt=""></a>
+        </div>
+        <div class="basis-1/2 md:basis-1/4 lg:basis-1/5 flex justify-center py-5 lg:py-35px 2xl:py-45px">
+            <a href="#">
+                <img src="{% static 'images/brand/brand_2.png' %}" alt=""></a>
+        </div>
+        <div class="basis-1/2 md:basis-1/4 lg:basis-1/5 flex justify-center py-5 lg:py-35px 2xl:py-45px">
+            <a href="#">
+                <img src="{% static 'images/brand/brand_3.png' %}" alt=""></a>
+        </div>
+        <div class="basis-1/2 md:basis-1/4 lg:basis-1/5 flex justify-center py-5 lg:py-35px 2xl:py-45px">
+            <a href="#">
+                <img src="{% static 'images/brand/brand_4.png' %}" alt=""></a>
+        </div>
+        <div class="basis-1/2 md:basis-1/4 lg:basis-1/5 flex justify-center py-5 lg:py-35px 2xl:py-45px">
+            <a href="#">
+                <img src="{% static 'images/brand/brand_5.png' %}" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<!-- featured section -->
+<section>
+    <div class="pt-30px pb-70px">
+        <div class="container-fluid-2">
+            <!-- heading -->
+            <div data-aos="fade-up">
+                <h3 class="text-3xl md:text-[35px] lg:text-size-42 leading-[45px] 2xl:leading-[45px] md:leading-[50px] font-bold mb-5 md:mb-10 text-blackColor dark:text-blackColor-dark"
+                    data-aos="fade-up">
+                    Featured Products
+                </h3>
+            </div>
+
+            <!-- featured cards -->
+
+            <div data-aos="fade-up" class="modal-container sm:-mx-15px">
+                <!-- Swiper -->
+                <div class="swiper featured-courses">
+                    <div class="swiper-wrapper">
+                        <!-- card 1 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/1.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-secondaryColor rounded font-semibold">
+                                                    Sale
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to Cart">
+                                                    <button
+                                                        class="text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Book stand about Software
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $32.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $67.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Sports</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(44)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/2.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-blue rounded font-semibold">
+                                                    New
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Nice stand about peek
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $56.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $99.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Coocking</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(98)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/3.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-greencolor2 rounded font-semibold">
+                                                    Sold Out
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Nided minid lnided codad
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $57.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $88.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Drama</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(44)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/4.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-yellow rounded font-semibold">
+                                                    20% off
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Pendi mandie kond maedsd
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $88.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $99.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Design</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(45)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 5 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/5.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-secondaryColor rounded font-semibold">
+                                                    Sale
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Book stand about Software
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $32.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $67.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Development</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(44)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 6 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/6.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-blue rounded font-semibold">
+                                                    New
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Nice stand about peek
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            56.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $99.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Business</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(98)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 7 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/7.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-greencolor2 rounded font-semibold">
+                                                    Sold Out
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Nided minid lnided codad
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $57.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $88.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Affiliate</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(45)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 8 -->
+                        <div class="swiper-slide group">
+                            <div class="tab-content-wrapper sm:px-15px mb-30px">
+                                <div
+                                    class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                                    <!-- card image -->
+                                    <div class="relative">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="w-full overflow-hidden">
+                                            <img src="{% static 'images/products/8.jpg' %}" alt=""
+                                                class="w-full transition-all duration-300 group-hover:scale-110">
+                                        </a>
+                                        <div
+                                            class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                            <div>
+                                                <p
+                                                    class="text-xs text-whiteColor px-4 py-[3px] bg-yellow rounded font-semibold">
+                                                    20% off
+                                                </p>
+                                            </div>
+
+                                            <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                                href="#"><i
+                                                    class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                        </div>
+
+                                        <div
+                                            class="absolute bottom-0 left-0 right-0 transition-all duration-300 opacity-0 invisible group-hover:visible group-hover:opacity-100 group-hover:bottom-5">
+                                            <ul class="flex gap-[6px] justify-center items-center">
+                                                <li class="h-46px">
+                                                    <a href="" data-tip="Add to compare" class="tooltip">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"
+                                                                d="M304 160l-64-64 64-64M207 352l64 64-64 64">
+                                                            </path>
+                                                            <circle cx="112" cy="96" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <circle cx="400" cy="416" r="48" fill="none"
+                                                                stroke="currentColor" stroke-linecap="round"
+                                                                stroke-linejoin="round" stroke-width="32">
+                                                            </circle>
+                                                            <path
+                                                                d="M256 96h84a60 60 0 0160 60v212M255 416h-84a60 60 0 01-60-60V144"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li class="h-46px tooltip" data-tip="Add to cart">
+                                                    <button
+                                                        class="tooltip text-sm h-full leading-46px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:text-whiteColor dark:hover:bg-primaryColor transition-all duration-300 rounded">
+                                                        Add to cart
+                                                    </button>
+                                                </li>
+                                                <li class="h-46px">
+                                                    <button data-tip="Quick View" class="tooltip modal-open">
+                                                        <svg class="ionicon w-18px h-18px py-14px px-4 box-content text-contentColor bg-whiteColor hover:bg-primaryColor hover:text-whiteColor dark:text-contentColor-dark dark:bg-whiteColor-dark dark:hover:bg-primaryColor dark:hover:text-whiteColor transition-all duration-300 rounded"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512">
+                                                            <path
+                                                                d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 00-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 000-17.47C428.89 172.28 347.8 112 255.66 112z"
+                                                                fill="none" stroke="currentColor"
+                                                                stroke-linecap="round" stroke-linejoin="round"
+                                                                stroke-width="32"></path>
+                                                            <circle cx="256" cy="256" r="80" fill="none"
+                                                                stroke="currentColor" stroke-miterlimit="10"
+                                                                stroke-width="32"></circle>
+                                                        </svg>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- card content -->
+                                    <div>
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="text-xl md:text-size-22 font-medium text-blackColor mb-10px mt-5 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                            Pendi mandie kond maedsd
+                                        </a>
+                                        <!-- price -->
+                                        <div class="text-2xl font-semibold text-primaryColor font-inter mb-4">
+                                            $88.00
+                                            <del class="text-base text-lightGrey4 font-semibold">/ $99.00</del>
+                                        </div>
+                                        <!--  rating-->
+                                        <div
+                                            class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                            <div>
+                                                <a href="instructor-details.html"
+                                                    class="text-base text-contentColor hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor">Sports</a>
+                                            </div>
+                                            <div class="text-start md:text-end">
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <i class="icofont-star text-size-15 text-yellow"></i>
+                                                <span class="text-xs text-lightGrey6">(45)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- modal content -->
+                <div
+                    class="modal hidden fixed top-0 left-0 w-full h-full z-xxsmall transition-all duration-500 bg-lightBlack opacity-0 overflow-y-auto">
+                    <div class="modal-close fixed md:absolute top-0 left-0 w-full h-full z-xsmall"></div>
+
+                    <div
+                        class="modal-content transition-all duration-500 -translate-y-20 bg-whiteColor dark:bg-whiteColor-dark p-15px max-w-250 mx-15px md:mx-auto mb-50px mt-110px md:my-150px relative z-small rounded-lg">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-30px">
+                            <!-- delails left -->
+                            <div class="relative">
+                                <div class="md:sticky md:top-[100px]">
+                                    <!-- Swiper -->
+                                    <div class="swiper product-details">
+                                        <div class="swiper-wrapper">
+                                            <!-- product 1 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/1.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 2 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/2.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 3 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/3.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 4 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/4.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 5 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/5.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 6 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/6.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                            <!-- product 7 -->
+                                            <div class="swiper-slide">
+                                                <div
+                                                    class="border border-borderColor dark:border-borderColor-dark">
+                                                    <img src="{% static 'images/products/7.jpg' %}" alt=""
+                                                        class="w-full">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper swiper product-details-thumb pt-10px">
+                                        <div class="swiper-wrapper">
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/1.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/2.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/3.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/4.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/5.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/6.jpg' %}" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark">
+                                                <img class="w-full" loading="lazy"
+                                                    src="{% static 'images/products/7.jpg' %}" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- details right -->
+                            <div>
+                                <div class="text-balckColor dark:text-blackColor-dark">
+                                    <!-- title -->
+
+                                    <div class="mb-15px mt-1">
+                                        <p
+                                            class="text-lg leading-1.2 text-blackColor dark:text-blackColor-dark">
+                                            Book
+                                        </p>
+                                    </div>
+                                    <h4 class="text-size-21 md:text-size-26 lg:text-4xl font-bold mb-5">
+                                        <a href="./pages/ecommerce/product-details.html"
+                                            class="leading-1.2 text-contentColor dark:text-contentColor2-dark hover:text-primaryColor dark:hover:text-primaryColor">Book
+                                            stand about Software</a>
+                                    </h4>
+                                    <!-- price -->
+                                    <div class="flex items-center mb-5">
+                                        <p
+                                            class="text-lg leading-1.8 text-blackColor dark:text-blackColor-dark mr-6px">
+                                            <del>$110.00 </del>
+                                        </p>
+                                        <p
+                                            class="text-lg leading-1.8 text-blackColor dark:text-blackColor-dark mr-6px">
+                                            $80.00
+                                        </p>
+                                        <p
+                                            class="text-size-15 leading-1.8 text-whiteColor mr-6px px-10px bg-primaryColor rounded">
+                                            SALE
+                                        </p>
+                                        <p
+                                            class="text-size-15 leading-1.8 text-whiteColor dark:text-whiteColor-dark mr-6px px-10px bg-blackColor dark:bg-blackColor-dark rounded">
+                                            -27%
+                                        </p>
+                                    </div>
+
+                                    <!-- sizes -->
+                                    <div>
+                                        <p class="leading-1.8 mt-5 mb-7px">Size: X</p>
+                                        <div class="flex items-center gap-x-5px text-center">
+                                            <div>
+                                                <button
+                                                    class="hover:bg-blackColor dark:hover:bg-blackColor-dark hover:text-whiteColor dark:hover:text-whiteColor-dark border border-borderColor dark:border-borderColor-dark w-10 h-10 leading-10 rounded">
+                                                    x
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button
+                                                    class="hover:bg-blackColor dark:hover:bg-blackColor-dark hover:text-whiteColor dark:hover:text-whiteColor-dark border border-borderColor dark:border-borderColor-dark w-10 h-10 leading-10 rounded">
+                                                    xl
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button
+                                                    class="hover:bg-blackColor dark:hover:bg-blackColor-dark hover:text-whiteColor dark:hover:text-whiteColor-dark border border-borderColor dark:border-borderColor-dark w-10 h-10 leading-10 rounded">
+                                                    m
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button
+                                                    class="hover:bg-blackColor dark:hover:bg-blackColor-dark hover:text-whiteColor dark:hover:text-whiteColor-dark border border-borderColor dark:border-borderColor-dark w-10 h-10 leading-10 rounded">
+                                                    s
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- colors -->
+                                    <div>
+                                        <p class="leading-1.8 mt-5 mb-7px">Color: violet</p>
+                                        <div class="flex items-center gap-x-10px">
+                                            <div
+                                                class="cursor-pointer border border-borderColor dark:border-borderColor-dark max-w-9 md:max-w-10 lg:max-w-15">
+                                                <img class="w-full" loading="lazy"
+                                                    src="images/products/1.jpg" alt="">
+                                            </div>
+                                            <div
+                                                class="cursor-pointer border border-borderColor dark:border-borderColor-dark max-w-9 md:max-w-10 lg:max-w-15">
+                                                <img class="w-full" loading="lazy"
+                                                    src="images/products/2.jpg" alt="">
+                                            </div>
+                                            <div
+                                                class="cursor-pointer border border-borderColor dark:border-borderColor-dark max-w-9 md:max-w-10 lg:max-w-15">
+                                                <img class="w-full" loading="lazy"
+                                                    src="images/products/3.jpg" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark max-w-9 md:max-w-10 lg:max-w-15">
+                                                <img class="w-full" loading="lazy"
+                                                    src="images/products/4.jpg" alt="">
+                                            </div>
+                                            <div
+                                                class="swiper-slide cursor-pointer border border-borderColor dark:border-borderColor-dark max-w-9 md:max-w-10 lg:max-w-15">
+                                                <img class="w-full" loading="lazy"
+                                                    src="images/products/5.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- quantity -->
+                                    <div class="mb-30px">
+                                        <p class="leading-1.8 mt-5 mb-7px">Quantity</p>
+                                        <div
+                                            class="flex items-center gap-x-10px md:gap-x-5px lg:gap-x-10px 2xl:gap-x-5">
+                                            <div
+                                                class="count-container max-w-150px h-55px leading-55px border-2 border-borderColor2 dark:border-borderColor2-dark rounded-full relative overflow-hidden">
+                                                <input type="number" value="1"
+                                                    class="w-full rounded-full focus:outline-none bg-transparent text-center">
+                                                <div>
+                                                    <button
+                                                        class="mincount absolute left-[10px] top-1/2 -translate-y-1/2 text-blackColor dark:text-blackColor-dark p-x-10px leading-1.8 w-5 inline-block opacity-50">
+                                                        -</button><button
+                                                        class="maxcount absolute top-1/2 -translate-y-1/2 right-[10px] text-blackColor dark:text-blackColor-dark p-x-10px leading-1.8 w-5 inline-block">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="border-2 border-blackColor dark:border-blackColor-dark rounded-full">
+                                                <button
+                                                    class="px-37px py-10px hover:text-primaryColor leading-1.8">
+                                                    Add to cart
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- action button -->
+                                    <div>
+                                        <button
+                                            class="text-whiteColor dark:text-whiteColor-dark dark:hover:text-whiteColor leading-1.8 px-60px md:px-90px lg:px-110px py-3 md:py-15px bg-blackColor dark:bg-blackColor-dark hover:bg-primaryColor dark:hover:bg-primaryColor rounded-full">
+                                            By it now
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- close button -->
+                        <div class="absolute top-4 right-3 z-xxl">
+                            <button
+                                class="modal-close group dark:bg-whiteColor rounded focus:shadow-select opacity-50 hover:opacity-75 p-1 inline-block">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                    class="w-4 h-4 fill-blackColor" fill="#000">
+                                    <path
+                                        d="M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- courses section -->
+<section>
+    <div
+        class="pt-50px pb-10 md:pt-70px md:pb-50px lg:pt-20 2xl:pt-100px 2xl:pb-70px bg-lightGrey7 dark:bg-lightGrey7-dark">
+        <div class="filter-container container-fluid-2">
+            <!-- courses Heading -->
+            <div class="mb-5 md:mb-10" data-aos="fade-up">
+                <div class="text-center">
+                    <span
+                        class="text-sm font-semibold text-primaryColor bg-whitegrey3 px-6 py-5px mb-5 rounded-full inline-block">
+                        Course List
+                    </span>
+                </div>
+
+                <h3
+                    class="text-3xl md:text-[35px] lg:text-size-38 3xl:text-size-42 leading-10 mf:leading-45px 2xl:leading-50px 3xl:leading-2xl font-bold text-blackColor dark:text-blackColor-dark text-center">
+                    Perfect Online
+                    <span
+                        class="relative after:w-full after:h-[7px] z-0 after:bg-secondaryColor after:absolute after:left-0 after:bottom-3 md:after:bottom-5 after:z-[-1]">Course</span>
+                    <br>
+                    Your Carrer
+                </h3>
+            </div>
+
+            <!-- courses tabs -->
+            <div data-aos="fade-up">
+                <ul
+                    class="filter-controllers flex flex-wrap md:flex-nowrap justify-center bg-whiteColor dark:bg-whiteColor-dark p-10px 3xl:px-10 py-0 2xl:mx-50px mb-25px rounded button-group filters-button-group">
+                    <li>
+                        <button data-filter="*"
+                            class="is-checked relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor after:w-0.5 after:h-15px after:absolute after:right-[-15px] after:bottom-1/2 after:translate-y-1/2 after:bg-contentColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            All
+                        </button>
+                    </li>
+                    <li>
+                        <button data-filter=".filter1"
+                            class="relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor after:w-0.5 after:h-15px after:absolute after:right-[-15px] after:bottom-1/2 after:translate-y-1/2 after:bg-contentColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            Computer Science
+                        </button>
+                    </li>
+                    <li>
+                        <button data-filter=".filter2"
+                            class="relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor after:w-0.5 after:h-15px after:absolute after:right-[-15px] after:bottom-1/2 after:translate-y-1/2 after:bg-contentColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            Data science
+                        </button>
+                    </li>
+                    <li>
+                        <button data-filter=".filter3"
+                            class="relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor after:w-0.5 after:h-15px after:absolute after:right-[-15px] after:bottom-1/2 after:translate-y-1/2 after:bg-contentColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            Engineering
+                        </button>
+                    </li>
+                    <li>
+                        <button data-filter=".filter4"
+                            class="relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor after:w-0.5 after:h-15px after:absolute after:right-[-15px] after:bottom-1/2 after:translate-y-1/2 after:bg-contentColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            Web Development
+                        </button>
+                    </li>
+                    <li>
+                        <button data-filter=".filter5"
+                            class="relative px-10px lg:px-3 2xl:px-15px py-10px md:py-4 lg:py-3 3xl:py-22px mx-10px md:mx-2 lg:mx-3 2xl:mx-15px text-base md:text-xs lg:text-base text-contentColor font-medium hover:text-primaryColor dark:text-contentColor-dark dark:hover:text-primaryColor before:w-0 before:h-0.5 before:absolute before:-bottom-0.5 lg:before:bottom-0 before:left-0 before:bg-primaryColor hover:before:w-full before:transition-all before:duration-300">
+                            Architecture
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <!-- course cards -->
+
+            <div class="flex flex-wrap sm:-mx-15px filter-contents" data-aos="fade-up">
+                <!-- card 1 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter1 filter3">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="{% static 'images/grid/grid_1.png' %}" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-secondaryColor rounded font-semibold">
+                                            Data & Tech
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">23
+                                                Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">1 hr 30
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Foundation course to under stand about softwere
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $32.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="{% static 'images/grid/grid_small_1.jpg' %}" alt="">
+                                            <span class="flex">Micle john</span>
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter2 filter3">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="{% static 'images/grid/grid_2.png' %}" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-blue rounded font-semibold">
+                                            Mechanical
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">29
+                                                Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">2 hr 10
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Nidnies course to under stand about softwere
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $32.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-greencolor">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="{% static 'images/grid/grid_small_2.jpg' %}" alt="">Rinis Jhon
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter4 filter5">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="{% static 'images/grid/grid_3.png' %}" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-secondaryColor2 rounded font-semibold">
+                                            Development
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                25 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                1 hr 40 min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Minws course to under stand about solution
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_3.jpg" alt="">Micle John
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 4 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter4">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="images/grid/grid_4.png" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-greencolor2 rounded font-semibold">
+                                            Ui & UX Design
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                36 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">3 hr 40
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Design course to under stand about solution
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_4.jpg" alt="">
+                                            <span class="flex flex-shrink-0">Micle Robin</span>
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 5 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group group grid-item filter1 filter3">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="images/grid/grid_5.png" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-orange rounded font-semibold">
+                                            Data & Tech
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">36
+                                                Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">3 hr 40
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Data course to under stand about solution
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_1.jpg" alt="">
+                                            <span class="flex flex-shrink-0">Micle Robin</span>
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 6 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter2 filter5">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="images/grid/grid_6.png" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-yellow rounded font-semibold">
+                                            Big Data
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                30 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">3 hr 40
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Big data to under stand about solution pacage
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">
+                                            Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_1.jpg" alt="">
+                                            <span class="flex flex-shrink-0">Micle Robin</span>
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter4 filter5">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="images/grid/grid_7.png" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-secondaryColor2 rounded font-semibold">
+                                            Development
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                25 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                1 hr 40 min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Minws course to under stand about solution
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_3.jpg" alt="">Micle John
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 8 -->
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 group grid-item filter4">
+                    <div class="tab-content-wrapper sm:px-15px mb-30px">
+                        <div
+                            class="p-15px bg-whiteColor shadow-brand dark:bg-darkdeep3-dark dark:shadow-brand-dark">
+                            <!-- card image -->
+                            <div class="relative mb-4">
+                                <a href="course-details.html" class="w-full overflow-hidden rounded">
+                                    <img src="images/grid/grid_8.png" alt=""
+                                        class="w-full transition-all duration-300 group-hover:scale-110">
+                                </a>
+                                <div
+                                    class="absolute left-0 top-1 flex justify-between w-full items-center px-2">
+                                    <div>
+                                        <p
+                                            class="text-xs text-whiteColor px-4 py-[3px] bg-greencolor2 rounded font-semibold">
+                                            Ui & UX Design
+                                        </p>
+                                    </div>
+                                    <a class="text-white bg-black bg-opacity-15 rounded hover:bg-primaryColor"
+                                        href="#"><i class="icofont-heart-alt text-base py-1 px-2"></i></a>
+                                </div>
+                            </div>
+                            <!-- card content -->
+                            <div>
+                                <div class="grid grid-cols-2 mb-15px">
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-book-alt pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">
+                                                36 Lesson</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <div>
+                                            <i class="icofont-clock-time pr-5px text-primaryColor text-lg"></i>
+                                        </div>
+                                        <div>
+                                            <span class="text-sm text-black dark:text-blackColor-dark">3 hr 40
+                                                min</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="course-details.html"
+                                    class="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor">
+                                    Design course to under stand about solution
+                                </a>
+                                <!-- price -->
+                                <div class="text-lg font-semibold text-primaryColor font-inter mb-4">
+                                    $40.00
+                                    <del class="text-sm text-lightGrey4 font-semibold">/ $67.00</del>
+                                    <span class="ml-6"><del
+                                            class="text-base font-semibold text-secondaryColor3">Free</del></span>
+                                </div>
+                                <!-- author and rating-->
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
+                                    <div>
+                                        <a href="instructor-details.html"
+                                            class="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"><img
+                                                class="w-[30px] h-[30px] rounded-full mr-15px"
+                                                src="images/grid/grid_small_4.jpg" alt="">
+                                            <span class="flex flex-shrink-0">Micle Robin</span>
+                                        </a>
+                                    </div>
+                                    <div class="text-start md:text-end">
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <i class="icofont-star text-size-15 text-yellow"></i>
+                                        <span class="text-xs text-lightGrey6">(44)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  counter section -->
+<div>
+    <div class="container-fluid-2">
+        <!-- about counter -->
+        <div
+            class="counter flex flex-wrap py-50px md:pt-50px md:pb-70px lg:pt-50px lg:pb-20 2xl:py-50px lg:py-20 gap-y-30px lg:gap-y-0">
+            <div class="basis-full sm:basis-1/2 lg:basis-1/4" data-aos="fade-up">
+                <div class="flex gap-4">
+                    <div>
+                        <img src="images/counter/counter__1.png" alt="">
+                    </div>
+                    <div>
+                        <p
+                            class="text-size-34 leading-[1.1] text-blackColor font-bold font-hind dark:text-blackColor-dark">
+                            <span data-countup-number="27"> 27</span><span>+</span>
+                        </p>
+                        <p
+                            class="uppercase text-blackColor font-medium leading-[18px] dark:text-blackColor-dark">
+                            Total Acheivment
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-full sm:basis-1/2 lg:basis-1/4" data-aos="fade-up">
+                <div class="flex gap-4">
+                    <div>
+                        <img src="images/counter/counter__2.png" alt="">
+                    </div>
+                    <div>
+                        <p
+                            class="text-size-34 leading-[1.1] text-blackColor font-bold font-hind dark:text-blackColor-dark">
+                            <span data-countup-number="145">145</span><span>+</span>
+                        </p>
+                        <p
+                            class="uppercase text-blackColor font-medium leading-[18px] dark:text-blackColor-dark">
+                            TOTAL STUDENTS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-full sm:basis-1/2 lg:basis-1/4" data-aos="fade-up">
+                <div class="flex gap-4">
+                    <div>
+                        <img src="images/counter/counter__3.png" alt="">
+                    </div>
+                    <div>
+                        <p
+                            class="text-size-34 leading-[1.1] text-blackColor font-bold font-hind dark:text-blackColor-dark">
+                            <span data-countup-number="10">10</span><span>k</span>
+                        </p>
+                        <p
+                            class="uppercase text-blackColor font-medium leading-[18px] dark:text-blackColor-dark">
+                            tOTAL INSTRUCTOR
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="basis-full sm:basis-1/2 lg:basis-1/4" data-aos="fade-up">
+                <div class="flex gap-4">
+                    <div>
+                        <img src="images/counter/counter__4.png" alt="">
+                    </div>
+                    <div>
+                        <p
+                            class="text-size-34 leading-[1.1] text-blackColor font-bold font-hind dark:text-blackColor-dark">
+                            <span data-countup-number="214">214</span><span>+</span>
+                        </p>
+                        <p
+                            class="uppercase text-blackColor font-medium leading-[18px] dark:text-blackColor-dark">
+                            OVER THE WORLD
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- testimonial section -->
+<section>
+    <div class="bg-lightGrey10 dark:bg-lightGrey10-dark relative z-0 overflow-hidden">
+        <div class="container py-50px md:py-70px lg:py-20 2xl:pt-145px 2xl:pb-154px">
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-30px lg:gap-0">
+                <!-- testimonial Left -->
+                <div data-aos="fade-up">
+                    <h3
+                        class="uppercase text-secondaryColor text-size-15 mb-5px md:mb-15px font-inter tracking-[4px] font-semibold">
+                        EDUCATION SOLUTION
+                    </h3>
+                    <h1
+                        class="text-3xl text-blackColor md:text-size-35 lg:text-size-42 2xl:text-size-47 leading-10 md:leading-45px lg:leading-12 2xl:leading-50px dark:text-blackColor-dark font-bold mb-15px">
+                        Client Testimonial About Our Lms Agency
+                    </h1>
+
+                    <!-- Swiper -->
+                    <div class="swiper testimonial-2">
+                        <div class="swiper-wrapper">
+                            <!-- testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div>
+                                    <p class="md:text-xl md:leading-10 text-lightGrey dark:text-whiteColor">
+                                        <i class="icofont-quote-left quote__left text-primaryColor text-xl"></i>
+                                        The other hand we denounce with righteou indg ation
+                                        and dislike men who are so beguiled and demorali ed by
+                                        the of pleasure of the moment.Dislike men who are so
+                                        beguiled and demoraliz worlds ed by the charms of
+                                        pleasure of the moment. Lorem ipsum dolor sit amet.
+                                        <i
+                                            class="icofont-quote-right quote__right text-primaryColor text-xl"></i>
+                                    </p>
+
+                                    <div class="flex items-center pt-10">
+                                        <div class="pr-18px">
+                                            <img src="images/testimonial/testi_2.png" alt=""
+                                                class="w-18 h-78 rounded-full">
+                                        </div>
+                                        <div>
+                                            <h4>
+                                                <a href="#"
+                                                    class="text-size-22 font-semibold text-contentColor hover:text-primaryColor dark:hover:text-primaryColor dark:text-contentColor-dark">Mirnsdo
+                                                    Jons</a>
+                                            </h4>
+                                            <a href="#" class="text-primaryColor">Ui/Ux Designer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div>
+                                    <p class="md:text-xl md:leading-10 text-lightGrey dark:text-whiteColor">
+                                        <i class="icofont-quote-left quote__left text-primaryColor text-xl"></i>
+                                        The other hand we denounce with righteou indg ation
+                                        and dislike men who are so beguiled and demorali ed by
+                                        the of pleasure of the moment.Dislike men who are so
+                                        beguiled and demoraliz worlds ed by the charms of
+                                        pleasure of the moment. Lorem ipsum dolor sit amet.
+                                        <i
+                                            class="icofont-quote-right quote__right text-primaryColor text-xl"></i>
+                                    </p>
+
+                                    <div class="flex items-center pt-10">
+                                        <div class="pr-18px">
+                                            <img src="images/testimonial/testi_2.png" alt=""
+                                                class="w-18 h-78 rounded-full">
+                                        </div>
+                                        <div>
+                                            <h4>
+                                                <a href="#"
+                                                    class="text-size-22 font-semibold text-contentColor hover:text-primaryColor dark:hover:text-primaryColor dark:text-contentColor-dark">Mirnsdo
+                                                    Jons</a>
+                                            </h4>
+                                            <a href="#" class="text-primaryColor">Ui/Ux Designer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- testimonial 3 -->
+                            <div class="swiper-slide">
+                                <div>
+                                    <p class="md:text-xl md:leading-10 text-lightGrey dark:text-whiteColor">
+                                        <i class="icofont-quote-left quote__left text-primaryColor text-xl"></i>
+                                        The other hand we denounce with righteou indg ation
+                                        and dislike men who are so beguiled and demorali ed by
+                                        the of pleasure of the moment.Dislike men who are so
+                                        beguiled and demoraliz worlds ed by the charms of
+                                        pleasure of the moment. Lorem ipsum dolor sit amet.
+                                        <i
+                                            class="icofont-quote-right quote__right text-primaryColor text-xl"></i>
+                                    </p>
+
+                                    <div class="flex items-center pt-10">
+                                        <div class="pr-18px">
+                                            <img src="images/testimonial/testi_2.png" alt=""
+                                                class="w-18 h-78 rounded-full">
+                                        </div>
+                                        <div>
+                                            <h4>
+                                                <a href="#"
+                                                    class="text-size-22 font-semibold text-contentColor hover:text-primaryColor dark:hover:text-primaryColor dark:text-contentColor-dark">Mirnsdo
+                                                    Jons</a>
+                                            </h4>
+                                            <a href="#" class="text-primaryColor">Ui/Ux Designer</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide controller -->
+                        <div class="absolute bottom-0 right-0 flex flex-row-reverse gap-0.5">
+                            <div
+                                class="static swiper-button-next w-15 h-15 bg-whiteColor text-blackColor transition-all duration-300 text-3xl hover:bg-primaryColor hover:text-whiteColor dark:hover:bg-secondaryColor after:hidden before:hidden">
+                                <i class="icofont-long-arrow-right active"></i>
+                            </div>
+                            <div
+                                class="static swiper-button-prev w-15 h-15 transition-all duration-300 bg-whiteColor text-blackColor text-3xl hover:bg-primaryColor hover:text-whiteColor dark:hover:bg-secondaryColor after:hidden before:hidden">
+                                <i class="icofont-long-arrow-left"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- testimonial right -->
+                <div data-aos="fade-up">
+                    <div class="tilt pl-0 md:pl-70px">
+                        <img class="w-full" src="images/testimonial/testi__group__1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}

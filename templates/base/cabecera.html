@@ -1,0 +1,209 @@
+{% load static %}
+
+<header>
+    <!-- header top start -->
+    <div class="bg-blackColor2 dark:bg-lightGrey10-dark hidden lg:block">
+        <div
+            class="container 3xl:container-secondary-lg 4xl:container mx-auto text-whiteColor text-size-12 xl:text-sm py-5px xl:py-9px">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p>WhatsApp: +57 3057115233 - Correo: info@devfer.com.co</p>
+                </div>
+                <div class="flex gap-37px items-center">
+                    <div>
+                        <p>
+                            <i class="icofont-location-pin text-primaryColor text-size-15 mr-5px"></i>
+                            <span>Bogot, Colombia</span>
+                        </p>
+                    </div>
+                    <div>
+                        <!-- header social list -->
+                        <ul class="flex gap-13px text-size-15">
+                            <li>
+                                <a class="hover:text-primaryColor" href="#"><i class="icofont-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="hover:text-primaryColor" href="#"><i class="icofont-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a class="hover:text-primaryColor" href="#"><i class="icofont-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header top end -->
+
+    <!-- navbar start -->
+    <div class="transition-all duration-500 sticky-header z-medium dark:bg-whiteColor-dark">
+        <nav>
+            <div
+                class="py-15px lg:py-0 px-15px lg:container 3xl:container-secondary-lg 4xl:container mx-auto relative">
+                <div class="grid grid-cols-2 lg:grid-cols-12 items-center gap-15px">
+                    <!-- navbar left -->
+                    <div class="lg:col-start-1 lg:col-span-2">
+                        <a href="{% url 'productos:inicio' %}" class="block"><img src="{% static 'images/logo/logo_1.png' %}" alt="Logo"
+                                class="w-logo-sm lg:w-auto py-2"></a>
+                    </div>
+                    <!-- Main menu -->
+                    <div class="hidden lg:block lg:col-start-3 lg:col-span-7">
+                        <ul class="nav-list flex justify-center">
+                            <li class="nav-item group relative">
+                                <a href="{% url 'productos:inicio' %}"
+                                    class="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor">
+                                    INICIO
+                                </a>
+                            </li>
+                            <li class="nav-item group relative">
+                                <a href="{% url 'productos:nosotros' %}"
+                                    class="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor">
+                                    NOSOTROS
+                                </a>
+                            </li>
+                            <li class="nav-item group relative">
+                                <a href="{% url 'productos:producto' %}"
+                                    class="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor">
+                                    PRODUCTOS
+                                    <i class="icofont-rounded-down"></i>
+                                </a>
+                                <!-- dropdown menu -->
+                                <div class="dropdown absolute left-0 translate-y-10 z-medium hidden opacity-0"
+                                    style="transition: 0.3s">
+                                    <div
+                                        class="shadow-dropdown max-w-dropdown2 w-2000 py-14px rounded-standard bg-white dark:bg-whiteColor-dark">
+                                        <ul>
+                                            <li class="relative group/nested">
+                                                <a href="{% url 'productos:inicio' %}"
+                                                    class="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg flex justify-between items-center dark:bg-whiteColor-dark dark:text-contentColor-dark dark:hover:bg-whitegrey1-dark dark:hover:text-primaryColor">Item
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item group relative">
+                                <a href="{% url 'productos:inicio' %}"
+                                    class="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor">
+                                    CONTACTO
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- navbar right -->
+                    <div class="lg:col-start-10 lg:col-span-3">
+                        <ul class="relative nav-list flex justify-end items-center">
+                            <li class="hidden lg:block">
+                                
+                            </li>
+                            <li class="hidden lg:block">
+                                
+                            </li>
+                            <li class="block lg:hidden">
+                                <button
+                                    class="open-mobile-menu text-3xl text-darkdeep1 hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor">
+                                    <i class="icofont-navigation-menu"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- mobile menu -->
+    <div
+        class="mobile-menu w-mobile-menu-sm md:w-mobile-menu-lg fixed top-0 -right-[280px] md:-right-[330px] transition-all duration-500 w-mobile-menu h-full shadow-dropdown-secodary bg-whiteColor dark:bg-whiteColor-dark z-high block lg:hidden">
+        <button
+            class="close-mobile-menu text-lg bg-darkdeep1 hover:bg-secondaryColor text-white px-[11px] py-[6px] absolute top-0 right-full hidden">
+            <i class="icofont icofont-close-line"></i>
+        </button>
+        <!-- mobile menu wrapper -->
+        <div class="px-5 md:px-30px pt-5 md:pt-10 pb-50px h-full overflow-y-auto">
+            <!-- search input  -->
+            <div class="pb-10 border-b border-borderColor dark:border-borderColor-dark">
+                <form
+                    class="flex justify-between items-center w-full bg-whitegrey2 dark:bg-whitegrey2-dark px-15px py-[11px]">
+                    <input type="text" placeholder="Buscar Productos"
+                        class="bg-transparent w-4/5 focus:outline-none text-sm text-darkdeep1 dark:text-blackColor-dark">
+                    <button
+                        class="block text-lg text-darkdeep1 hover:text-secondaryColor dark:text-blackColor-dark dark:hover:text-secondaryColor">
+                        <i class="icofont icofont-search-2"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- mobile menu accordions -->
+            <div class="pt-8 pb-6 border-b border-borderColor dark:border-borderColor-dark">
+                <ul class="accordion-container">
+                    <li class="accordion">
+                        <!-- accordion header -->
+                        <div class="flex items-center justify-between">
+                            <a class="leading-1 py-11px text-darkdeep1 font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor" href="{% url 'productos:inicio' %}">INICIO</a>
+                        </div>
+                    </li>
+                    <li class="accordion">
+                        <!-- accordion header -->
+                        <div class="flex items-center justify-between">
+                            <a class="leading-1 py-11px text-darkdeep1 font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor" href="{% url 'productos:nosotros' %}">NOSOTROS</a>
+                        </div>
+                    </li>
+                    <li class="accordion">
+                        <!-- accordion header -->
+                        <div class="flex items-center justify-between">
+                            <a class="leading-1 py-11px text-darkdeep1 font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
+                                href="{% url 'productos:producto' %}">PRODUCTOS</a>
+                            <button class="accordion-controller px-3 py-4">
+                                <span class="w-[10px] h-[1px] bg-darkdeep1 block dark:bg-whiteColor"></span><span
+                                    class="w-[10px] h-[1px] bg-darkdeep1 block dark:bg-whiteColor rotate-90 -mt-[1px] transition-all duration-500"></span>
+                            </button>
+                        </div>
+                        <!-- accordion content -->
+                        <div class="accordion-content h-0 overflow-hidden transition-all duration-500">
+                            <div class="content-wrapper">
+                                <ul class="accordion-container">
+                                    <li class="accordion">
+                                        <!-- accordion header -->
+                                        <div class="flex items-center justify-between">
+                                            <a href="{% url 'productos:inicio' %}" class="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor">ITEM 1</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion">
+                        <!-- accordion header -->
+                        <div class="flex items-center justify-between">
+                            <a class="leading-1 py-11px text-darkdeep1 font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor" href="{% url 'productos:inicio' %}">CONTACTO</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mobile menu social area -->
+            <div>
+                <ul class="flex gap-6 items-center mb-5">
+                    <li>
+                        <a class="facebook" href="#"><i class="icofont icofont-facebook text-fb-color dark:text-whiteColor dark:hover:text-secondaryColor"></i></a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="#"><i class="icofont icofont-twitter text-twiter-color dark:text-whiteColor dark:hover:text-secondaryColor"></i></a>
+                    </li>
+                    <li>
+                        <a class="pinterest" href="#"><i class="icofont icofont-pinterest dark:text-whiteColor dark:hover:text-secondaryColor"></i></a>
+                    </li>
+                    <li>
+                        <a class="instagram" href="#"><i class="icofont icofont-instagram dark:text-whiteColor dark:hover:text-secondaryColor"></i></a>
+                    </li>
+                    <li>
+                        <a class="google" href="#"><i class="icofont icofont-youtube-play dark:text-whiteColor dark:hover:text-secondaryColor"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

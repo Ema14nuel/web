@@ -1,0 +1,58 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+<form method="get">
+    <input type="text" name="q" placeholder="Buscar..." value="{{ request.GET.q }}">
+    <select name="marca">
+        <option value="">Todas las marcas</option>
+        {% for marca in marcas %}
+            <option value="{{ marca.id }}" {% if request.GET.marca == marca.id|stringformat:"s" %}selected{% endif %}>
+                {{ marca.nombre }}
+            </option>
+        {% endfor %}
+    </select>
+    <select name="tipo">
+        <option value="">Todos los tipos</option>
+        {% for tipo in tipos %}
+            <option value="{{ tipo.id }}" {% if request.GET.tipo == tipo.id|stringformat:"s" %}selected{% endif %}>
+                {{ tipo.nombre }}
+            </option>
+        {% endfor %}
+    </select>
+    <button type="submit">Filtrar</button>
+</form>
+
+<ul>
+    {% for producto in productos %}
+        <li>
+            <h2>{{ producto.nombre }}</h2>
+            <p>{{ producto.descripcion }}</p>
+            <p>Marca: {{ producto.marca_045.nombre }}</p>
+            <p>Tipo: {{ producto.tipo_041.nombre }}</p>
+            {% for imagen in producto.pro044imagen_set.all %}
+                <img src="{{ imagen.nombre_archivo.url }}" alt="{{ producto.nombre }}">
+            {% endfor %}
+        </li>
+    {% endfor %}
+</ul>
+
+<div>
+    {% if is_paginated %}
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+                <a href="?{% if request.GET.q %}q={{ request.GET.q }}&{% endif %}{% if request.GET.marca %}marca={{ request.GET.marca }}&{% endif %}{% if request.GET.tipo %}tipo={{ request.GET.tipo }}&{% endif %}page={{ page_obj.previous_page_number }}">Anterior</a>
+            {% endif %}
+
+            <span class="current">
+                Página {{ page_obj.number }} de {{ page_obj.paginator.num_pages }}
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href="?{% if request.GET.q %}q={{ request.GET.q }}&{% endif %}{% if request.GET.marca %}marca={{ request.GET.marca }}&{% endif %}{% if request.GET.tipo %}tipo={{ request.GET.tipo }}&{% endif %}page={{ page_obj.next_page_number }}">Siguiente</a>
+            {% endif %}
+        </span>
+    {% endif %}
+</div>
+
+{% endblock content %}
